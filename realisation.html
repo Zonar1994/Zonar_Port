@@ -82,10 +82,14 @@
         </div>
         <div class="col-md-12">
             <h3>Introduction</h3>
-            <p>During the Realisation phase, I focused on bringing the proposed concepts to life by leveraging low-code
-                platforms such as N8N and Notion, along with integrating OpenAI assistants. This phase involved
-                developing a functional prototype that demonstrates the practical applications and benefits of
-                generative AI in enhancing workflow processes.</p>
+            <p>During the Realisation phase, I focused on bringing the proposed concepts to life by building the N8N
+                logic, setting up the Notion database, and integrating OpenAI assistants. These tools were crucial for
+                creating a functional prototype that serves as a solid base for the proof of concept I am working on.
+                This phase involved developing a system that demonstrates the practical applications and benefits of
+                generative AI in enhancing workflow processes. On this page, you can see how I created this system, with
+                each section detailing the approach and results from this setup. Specifically, I developed Breakdown Bot
+                1 and Breakdown Bot 2 to dissect projects into actionable tasks, showcasing the potential of AI-driven
+                automation in project management.</p>
             <br><br><br>
         </div>
         <div class="col-md-12">
@@ -99,11 +103,13 @@
             <li><strong>Read more:</strong> <a href="" target="_blank">N8N Documentation</a></li>
             </ul>
             </li>
-            <p>N8N was selected as the backbone for automation and workflow management due to its powerful low-code
-                environment. It allowed me to connect and automate various tasks and data points across different
-                systems seamlessly. N8N's flexibility and robust capabilities were crucial in setting up workflows that
-                handle data retrieval, processing, and task automation. For more details, refer to the <a
-                    href="pdf/n8nbreakdownbots.pdf" target="_blank">N8N and Notion Documentation</a>.</p>
+            <p>With the low-code tool N8N, I could easily create these systems and ensure they adhered to the system
+                requirements defined in the Specification & Design phase. To achieve this, I made sure the system was
+                transparent and easy to use. I implemented functions that allowed users to see the status, change it,
+                and also alter it. Despite being a low-code platform, N8N can sometimes be challenging due to certain
+                complexities in passing data through the nodes. Fortunately, I received assistance from coworkers
+                whenever I encountered difficulties, ensuring the system's smooth functionality. For more details, refer
+                to the <a href="pdf/n8nbreakdownbots.pdf" target="_blank">N8N and Notion Documentation</a>.</p>
             <br><br><br>
         </div>
         <div class="col-md-6">
@@ -119,11 +125,12 @@
             <li><strong>Read more:</strong> <a href="" target="_blank">Notion Documentation</a></li>
             </ul>
             </li>
-            <p>Notion served as the central database, organizing and storing all project-related information in a
-                structured and user-friendly format. Its visual interface made it easy to manage complex data structures
-                and ensured that all team members had easy access to necessary information. This integration with N8N
-                facilitated the smooth flow of data and efficient task management. For more details, refer to the <a
-                    href="pdf/Notiondocumentation.pdf" target="_blank">N8N and Notion Documentation</a>.</p>
+            <p>Now for the Notion part, at first, it was hard to figure out all of the different functionalities in
+                Notion, but at one point, I figured out all of the things I needed and also implemented webhooks in
+                order to trigger the automation. Notion can be very comprehensive, but for this prototype, it was quite
+                easy to do so. If it were a bit more complex, further research would be needed to do more complex things
+                in the future. But that’s personal. For more details, refer to the <a href="pdf/Notiondocumentation.pdf"
+                    target="_blank">N8N and Notion Documentation</a>.</p>
         </div>
 
         <div class="col-md-12">
@@ -148,8 +155,14 @@
             <p>OpenAI assistants were integrated to perform specific tasks such as data analysis, content generation,
                 and providing actionable insights. These AI-driven assistants leveraged large language models (LLMs) to
                 process and analyze large amounts of information, offering valuable support in breaking down complex
-                tasks and enhancing overall productivity. For more details, refer to the <a
-                    href="pdf/openaiassistants.pdf target=" _blank">OpenAI Assistants Documentation</a>.</p>
+                tasks and enhancing overall productivity. I chose OpenAI's GPT-4 model because it is the most capable
+                LLM out there right now. The smartest isn't always needed in this system, but GPT-4 does really well at
+                understanding concept, thus making it a better candidate for dissecting those concepts as well. . It is
+                possible to use another model for further dissection. Next to
+                that, I also did a lot of prompt engineering and used the chain of thought method for the
+                instructions/prompting for these agents. This led to a really good, structured, and desired output.
+                For more details, refer to the <a href="pdf/openaiassistants.pdf target=" _blank">OpenAI Assistants
+                    Documentation</a>.</p>
         </div>
 
 
