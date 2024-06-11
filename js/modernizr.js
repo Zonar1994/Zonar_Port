@@ -1384,6 +1384,14 @@ window.Modernizr = (function( window, document, undefined ) {
     /*>>teststyles*/
 
 
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector('.scroll-to-reflection').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.querySelector('#reflection').scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+
+
     /*>>prefixed*/
     // Modernizr.prefixed() returns the prefixed or nonprefixed property name variant of your input
     // Modernizr.prefixed('boxSizing') // 'MozBoxSizing'

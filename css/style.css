@@ -520,6 +520,14 @@ h5 {
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }
+.scroll-to-reflection {
+    cursor: pointer;
+    color: #ffbf00; /* Optional: Change the link color */
+}
+
+.scroll-to-reflection:hover {
+    color: #e69c00; /* Optional: Change the link color on hover */
+}
 
 .box-primary-nav {
     padding: 150px 0 0;
