@@ -92,16 +92,15 @@
                 each step is clear, specific, and conducive to automation.
                 <br><br>
                 Beyond my self-evaluation, I sought feedback from my coworkers to gain additional insights and validate
-                the effectiveness of the AI-driven project management system. Their perspectives will be detailed in the
-                subsequent sections to provide a comprehensive understanding of the system's performance and practical
-                applicability.
+                the effectiveness of the AI-driven project management system. I will be detailing their perspectives
+                during the graduation session.
             </p>
         </div>
         <div class="col-md-12">
             <h3>Self Evaluation</h3>
             <li><strong>Read more:</strong> <a href="" target="_blank">Self-Evaluation</a></li>
-        </ul>
-        </li>
+            </ul>
+            </li>
             <p>The AI models used in this project have shown excellent proficiency in dissecting complex tasks into
                 manageable steps, leveraging the Chain of Thought (CoT) prompt engineering method. These models can be
                 looped to further dissect tasks, demonstrating significant scalability by multiplying agents and
@@ -115,6 +114,171 @@
 
         </div>
 
+        <div class="col-md-12">
+            <h3>Conclusion</h3>
+
+            <p>
+                Project Focus and Development
+                The primary focus of this project was to develop a Project Breakdown Bot designed to assist project
+                managers by breaking down projects into actionable tasks that can be assigned to either an employee or
+                an AI agent. This system allows managers to enter project details, which the bot then dissects into
+                manageable tasks. Utilizing n8n, Notion, and the OpenAI API, I created a user-friendly system within
+                Notion. This setup enabled project managers to dissect projects by simply entering details and clicking
+                a button, which triggers the AI agent via n8n with a webhook and API.
+                <br><br>
+                <b>Self-Evaluation and Findings</b>
+                The system was evaluated against the requirements and criteria defined in the project's initial phases.
+                While it didn't meet all the more complex criteria, it adhered to most, including project dissection and
+                ease of use. The system's ability to break down projects into actionable tasks was surprisingly
+                effective, provided detailed input was given. The bot excelled at breaking down projects like the
+                Business Model Canvas into specific tasks such as contacting clients, visiting websites, gathering
+                information, and creating interview questions. This demonstrates the bot's potential to act as a
+                valuable assistant to project managers.
+                <br><br>
+                <b>Insights and Organizational Fit</b>
+                The system's performance depends heavily on the quality of input data—detailed project information
+                results in more accurate and actionable task breakdowns, aligning with the principle of "garbage in,
+                garbage out." However, the system may not fit all organizational workflows. It is more suitable for
+                design or development companies where detailed project planning is crucial. Conversely, it might not be
+                as effective for production companies with more intricate and less predictable workflows.
+                <br><br>
+                <b>Benefits and Limitations</b>
+                The primary benefits include significant time savings and providing project managers with a "sparring
+                partner" for brainstorming and project dissection. The system enhances project management efficiency by
+                automating the breakdown process. However, the system's main limitation is its dependence on detailed
+                input data. It struggled with less concrete tasks when provided with minimal information. The more
+                detailed the data, the better the system's performance.
+
+                <b>Final Testing and Peer Review</b>
+                In the final two weeks of my internship, I plan to test the system with colleagues and experts at
+                Henhouse using the peer review method from CMD. This will provide valuable insights and help validate
+                the system's functionality and applicability. If the feedback reveals any shortcomings, I will use these
+                insights to recommend future improvements.
+                <br><br>
+
+                This project successfully demonstrated the potential of Generative AI in enhancing project management
+                workflows. The Project Breakdown Bot proved effective in breaking down complex projects into actionable
+                tasks, provided detailed input was given. While there are areas for improvement and adaptation, the
+                proof of concept shows significant promise in automating and streamlining project breakdown processes.
+                The final weeks of testing and peer review will provide the necessary validation and pave the way for
+                future developments in this area.
+            </p>
+
+            <p>
+            <h3> Addressing the Research Questions
+            </h3>
+            Throughout this project, I have addressed several key research questions, while others remain partially
+            answered due to time constraints, complexity, and the primary focus on developing a proof of concept.
+            <br><br>
+            <b>Answered Research Questions</b>:
+            <br>
+            How can generative AI tools be applied to enhance workflow efficiency in organizations?
+            <br>
+            The Project Breakdown Bot effectively demonstrated how generative AI can be used to automate the
+            breakdown of complex projects into actionable tasks, significantly enhancing workflow efficiency.
+            <br><br>
+            In what practical ways can generative AI support problem-solving and decision-making within an
+            organization?
+            <br>
+            By dissecting projects into smaller tasks, the bot supports project managers in planning and
+            decision-making processes, acting as a valuable assistant.<br>
+            <br>
+            How will we measure the effectiveness of generative AI in improving our workflow and output quality?
+            <br>
+            The self-evaluation and planned peer review with colleagues and experts will provide insights into the
+            system's effectiveness and areas for improvement.<br><br>
+            <b>Partially Answered Research Questions</b>:<br>
+
+            What changes might generative AI introduce to team dynamics and work culture?
+            <br>
+            While the bot's potential to assist project managers has been demonstrated, a comprehensive analysis of
+            its impact on team dynamics and work culture requires further study and broader implementation.<br><br>
+            What ethical guidelines are important when implementing generative AI, to ensure it upholds company
+            values and respects the employees?
+            <br>
+            Initial ethical considerations have been addressed, such as the importance of ethical guidelines for
+            data privacy and responsible use. However, a more detailed ethical framework would benefit from further
+            exploration.<br><br>
+            What steps can I take to ensure our use of generative AI remains adaptable and responsible as technology
+            evolves?
+            <br>
+            Recommendations have been made for future development and adaptation, but ongoing research and
+            development will be necessary to fully address this question.<br><br>
+            <b>Unanswered Research Questions</b>
+            <br>
+            Due to the focus on creating a proof of concept and encountering various challenges, not all research
+            questions were fully answered. The complexity of integrating generative AI into diverse organizational
+            workflows and understanding its broader impacts requires more extensive investigation and longer-term
+            study.<br>
+            In summary, while significant progress has been made in demonstrating the potential of generative AI to
+            enhance workflow efficiency, further research and development are needed to fully answer all the
+            research questions and explore the broader implications of AI integration in organizational settings.
+            </p>
+        </div>
+
+
+        <div class="col-md-12">
+            <p>
+            <h2> Recommendation</h2>
+            Improvement Areas
+            One key area for improvement is the prompt engineering. Enhancing this aspect could involve developing a
+            scrutiny bot that rates the generated tasks and highlights areas for improvement. This would allow
+            project managers to quickly identify and refine tasks, ensuring higher quality and more actionable
+            outputs.
+            <br>
+            The main issue encountered was the inconsistency in the API output, which affected the structured JSON
+            format required to populate the Notion database correctly. Addressing this inconsistency is crucial for
+            ensuring smooth integration and functionality.
+            <br>
+            User Feedback
+            The system's feedback from colleagues and experts is expected to provide insights into its usability and
+            effectiveness. Preliminary feedback suggests the need for a more intuitive user interface and clearer
+            instructions for inputting project details. The peer review method from CMD will be employed to gather
+            comprehensive feedback in the final weeks.
+            <br>
+            Scalability and Adaptation
+            The system can be easily scaled by creating additional bots and integrating them into various databases.
+            Adjusting certain parameters will enable the system to loop and generate tasks until the project manager
+            is satisfied. This flexibility allows the system to adapt to different project sizes and complexities.
+            <br>
+            For different types of organizations, such as production companies, the system may need further
+            customization. Integrating real-time data processing and workflow tracking capabilities can make it more
+            suitable for such environments.
+            <br>
+            Tool and Technology Enhancements
+            Using different AI models in the future can provide varied outputs and potentially more creative
+            solutions, which can be beneficial for different types of companies. Exploring multiple models will
+            enhance the system's adaptability and output quality.
+            <br>
+            User Training and Implementation
+            Minimal training is required for project managers to use the system effectively, as it primarily
+            involves filling in a database in Notion. However, setting up the system initially can be complex. Once
+            a developer configures it, project managers can use the system repeatedly without further technical
+            assistance.
+            <br>
+            <b>Prompt engineering with Tree of Thoughts Method</b>
+            The Tree of Thoughts method for prompting has proven highly effective in ensuring that AI systems adhere to
+            a specific method and think in structured steps. This approach forces the AI to break down tasks into
+            manageable segments, enhancing its ability to generate coherent and actionable outputs. While there are
+            other methods to explore, such as chain-of-thought prompting, they can be more complex and might require
+            different system configurations. For this project, the Tree of Thoughts method has been instrumental in
+            maintaining clarity and precision in task generation.
+            <br>
+            Ethical Considerations and Best Practices
+            It is crucial to consider the types of projects inputted into the system to ensure ethical use.
+            Fortunately, the GPT API has safeguards to prevent the creation of harmful tasks. Project managers must
+            remain vigilant and ensure the system is used responsibly.
+            <br>
+            Establishing ethical guidelines for data privacy, security, and transparency is essential. Regular
+            audits and feedback loops should be implemented to maintain ethical standards and best practices.
+            <br>
+            Future Development
+            Future developments should focus on integrating multiple agents that provide department-specific
+            feedback on tasks. This collaborative approach ensures that tasks are comprehensive and consider all
+            necessary departmental requirements. Additional features such as real-time collaboration, predictive
+            analytics, and automated reporting will further enhance the system's functionality.
+            </p>
+        </div>
     </div>
 
 
